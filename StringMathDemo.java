@@ -2,8 +2,8 @@ public class StringMathDemo {
         
         public static void main(String[] arg) {
         //String class examples 
-        String str1 = "Tanushree";
-        String str2 = "Vispute";
+        String str1 = "Mayuri";
+        String str2 = "Patil";
 
         String str3 = str1.concat(" "+ str2);
 
@@ -15,8 +15,8 @@ public class StringMathDemo {
         System.out.println("Equals? str1 and str2:" + str1.equals(str2));
         System.out.println("Uppercase str1:"+ str1.toUpperCase());
 
-        double a = 34.5;
-        double b = 3.5;
+        double a = 6.5;
+        double b = 9.5; 
         
         System.out.println("Square root of a:" + Math.sqrt(a));
         System.out.println("a raised to b :" + Math.pow(a,b));
